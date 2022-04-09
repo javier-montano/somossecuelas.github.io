@@ -1,0 +1,474 @@
+*{
+    Margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background-color: black;
+    
+}
+.modal{width:100%;
+       height:100vh;
+       background:rgba(0,0,0);
+       position:absolute;
+    }
+
+@font-face {
+    font-family: meganjune;
+    src: url("../tipografias/megan_june/Megan\ June.otf");
+}
+
+h1{
+    font-family: meganjune;
+    
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.redessociales{
+   
+    background-image: url("../img/fondo.jpg");    
+    width:100vw;
+    height:5vw;
+    
+    
+   
+}
+.boton{
+
+    position: relative;
+    top: 30px;
+
+
+}
+.logosecuelas{
+
+    background-image:url("../img/LogoSecuelas.png");
+    background-color: rgb(5, 5, 5);
+    height:30vw;
+    width:30vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    background-size:30vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.bannerderecha{
+
+    background-color: pink;
+    height: 30vw;
+    width: 68vw;
+    background-size: 30vw;
+}
+
+
+/* SLIDER ************************/
+
+
+
+.slider{
+   width: 60vw;
+   height: 35vw;
+    margin:auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 60vw;
+    height: 35vw;
+
+    animation: cambio 20s infinite;
+}
+
+.slider li{
+    width: 60vw;
+    height: 35vw;
+    list-style:none;
+}
+
+.slider img{
+     width: 60vw;
+     height: 35vw;
+}
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -200%;}
+    100% {margin-left: -200%;}
+
+}
+.redessociales{
+
+    background-color: rgb(19, 19, 19);
+    
+
+}
+
+.infoserie{
+
+   
+    background-color: rgb(0, 0, 0); 
+    height:15vw;
+    width: 30vw;
+    background-size: 35vw;
+    background-position: center;
+  
+
+}
+.slider{
+    height: 35vw;
+    width: 60vw;
+    background-position: center;
+    margin-left: 6vw;
+}
+
+.slogan{
+
+    
+    background-color: rgb(0, 0, 0);
+    height:30vw;
+    width: 68vw;
+    background-size: 50vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 8vw;
+
+}
+.espacio1{
+
+   
+    background-image: url("../img/fondo.jpg");
+    height: 3vw;
+    width: 115vw;
+    background-size: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.teaser{
+
+    background-image:url("../gifs/glitchteaser.gif");
+    background-color:rgb(0, 0, 0);
+    height: 15vw;
+    width:30vw;
+    background-size: 40vw;
+    background-position: center;
+}
+.videoteaser{
+
+    background-color: black;
+    height: 30vw;
+    width: 68vw;
+    position: relative;
+
+}
+.espaciouno{
+  
+    background-image: url("../img/fondo.jpg");
+    
+    height: 3vw;
+    width: 100vw;
+    background-size: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.spot{
+    background-image:url("../gifs/glitchspot.gif");
+    background-color:rgb(0, 0, 0);
+    height: 15vw;
+    width:30vw;
+    padding-right: 2vw;
+    background-size: 28vw;
+    background-position: left;
+}
+.videospot{
+
+    background-color: black;
+    height: 30vw;
+    width: 68vw;
+}
+.espaciounouno{
+    background-image: url("../img/fondo.jpg");
+   
+    height: 3vw;
+    width: 100vw;
+    background-size: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fotografias{
+    
+    background-image:url("../gifs/glitchfotografias.gif");
+    background-color: black;
+    height:7vw;
+    width: 30vw;
+    margin-left: 2vw;
+    background-size: 20vw;
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
+.foto1{
+    
+    background-image:url("../Fotoscapitulo/foto1.png");
+    background-color:rgb(0, 0, 0);
+    height: 12vw;
+    width: 20vw;
+    margin-left: 7vw;
+    background-size: 20vw;
+    background-repeat: no-repeat;
+}
+.foto2{
+
+    background-image:url("../Fotoscapitulo/foto2.png");
+    background-color:black;
+    height: 12vw;
+    width: 20vw;
+    margin-left: 1vw;
+    background-size: 20vw;
+    background-repeat: no-repeat;
+
+}
+.foto3{
+    
+    background-image:url("../Fotoscapitulo/foto3.png");
+    background-color:black;
+    height: 12vw;
+    width: 20vw;
+    margin-left: 1vw;
+    background-size: 20vw;
+    background-repeat: no-repeat;
+
+}
+.foto4{
+    
+    background-image:url("../Fotoscapitulo/foto4.png");
+    background-color:black;
+    height: 12vw;
+    width: 20vw;
+    margin-left: 1vw;
+    background-size: 20vw;
+    background-repeat: no-repeat;
+}
+.foto5{
+    
+    background-image:url("../Fotoscapitulo/foto5.png");
+    background-color:black);
+    height: 12vw;
+    width: 20vw;
+    margin-left: 7vw;
+    background-size: 20vw;
+    background-repeat: no-repeat;
+}
+.foto6{
+    
+    background-image:url("../Fotoscapitulo/foto6.png");
+    background-color:black;
+    height: 12vw;
+    width: 20vw;
+    margin-left: 1vw;
+    background-size: 20vw;
+    background-repeat: no-repeat;
+
+}
+.foto7{
+    
+    background-image:url("../Fotoscapitulo/foto7.png");
+    background-color:black);
+    height: 12vw;
+    width: 20vw;
+    margin-left: 1vw;
+    background-size: 20vw;
+    background-repeat: no-repeat;
+
+}
+.foto8{
+    
+    background-image:url("../Fotoscapitulo/foto8.png");
+    background-color:black;
+    height: 12vw;
+    width: 20vw;
+    margin-left: 1vw;
+    background-size: 20vw;
+    background-repeat: no-repeat;
+
+}
+.foto9{
+    
+    background-image:url("../Fotoscapitulo/foto9.png");
+    background-color:black);
+    height: 12vw;
+    width: 20vw;
+    margin-left: 1vw;
+    background-size: 20vw;
+    background-repeat: no-repeat;
+
+}
+.fotouno{
+
+    background-image:url("../Fotoscapitulo/DTC\ 1.png");
+    background-color:black;
+    height: 12vw;
+    width: 20vw;
+    margin-left: 7vw;
+    background-size: 20vw;
+    background-repeat: no-repeat;
+
+}
+.fotodos{
+
+    background-image:url("../Fotoscapitulo/DTC\ 2.png");
+    background-color:black;
+    height: 12vw;
+    width: 20vw;
+    margin-left: 1vw;
+    background-size: 20vw;
+    background-repeat: no-repeat;
+
+}
+.fototres{
+
+    background-image:url("../Fotoscapitulo/DTC\ 3.png");
+    background-color:black;
+    height: 12vw;
+    width: 20vw;
+    margin-left: 1vw;
+    background-size: 20vw;
+    background-repeat: no-repeat;
+
+}
+.fotocuatro{
+
+    background-image:url("../Fotoscapitulo/DTC\ 3.png");
+    background-color:black;
+    height: 12vw;
+    width: 20vw;
+    margin-left: 1vw;
+    background-size: 20vw;
+    background-repeat: no-repeat;
+
+}
+.fotocinco{
+
+    background-image:url("../Fotoscapitulo/DTC\ 4.png");
+    background-color:black);
+    height: 12vw;
+    width: 20vw;
+    margin-left: 7vw;
+    background-size: 20vw;
+    background-repeat: no-repeat;
+
+}
+.fotoseis{
+
+    background-image:url("../Fotoscapitulo/DTC\ 6.png");
+    background-color:black;
+    height: 12vw;
+    width: 20vw;
+    margin-left: 1vw;
+    background-size: 20vw;
+    background-repeat: no-repeat;
+
+}
+.fotosiete{
+
+    background-image:url("../Fotoscapitulo/DTC\ 7.png");
+    background-color:black;
+    height: 12vw;
+    width: 20vw;
+    margin-left: 1vw;
+    background-size: 20vw;
+    background-repeat: no-repeat;
+
+}
+.fotoocho{
+
+    background-image:url("../Fotoscapitulo/DTC\ 8.png");
+    background-color:black;
+    height: 12vw;
+    width: 20vw;
+    margin-left: 1vw;
+    background-size: 20vw;
+    background-repeat: no-repeat;
+
+}
+.espacio2{
+
+    background-image: url("../img/fondo.jpg");
+    
+    height:3vw;
+    width:100vw;
+    background-size: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.capitulos{
+    
+    background-image: url("../gifs/glitchcapitulo.gif");
+    background-color:rgb(0, 0, 0);
+    height:7vw;
+    width: 30vw;
+    margin-left: 1vw;
+    background-size: 20vw;
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
+.capitulo1{
+    
+    background-color:rgb(0, 0, 0);
+    height:70vw;
+    width:80vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
+
+.nomcap1{
+
+    background-color:black;
+    
+    height: 6vw;
+    width:100vw;
+}
+
+.infocap1{
+
+    background-color: rgb(0, 0, 0);
+    padding-top: 3vw;
+    height: 30vw;
+    width: 100vw;
+
+}
+
+.espacio3{
+    
+    background-color:black;
+    height:10vw;
+    width:100vw;
+
+}
+@media(max-width:575px){
+}
+@media(min-width:576px) and (max-width:767px){
+}
+@media(min-width:768px) and (max-width:991px){
+}
+@media(min-width: 992px){
+    
+    
+}
